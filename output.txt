@@ -1,0 +1,27 @@
+Filled container. 
+Container contains 7 elements.
+
+0: It's a Sphere with Radius: 15
+Its Density is 1.54
+
+1: It's a Parallelepiped with Edges: 8, 9, 5
+Its Density is 7.8
+
+2: It's a Parallelepiped with Edges: 4, 3, 5
+Its Density is 1.54
+
+3: It's a Sphere with Radius: 7
+Its Density is 7.7
+
+4: It's a Sphere with Radius: 30
+Its Density is 10
+
+5: It's a Parallelepiped with Edges: 3, 3, 5
+Its Density is 15.5
+
+6: It's a Parallelepiped with Edges: 8, 9, 11
+Its Density is 17
+
+Empty container. 
+Container contains 0 elements.
+
