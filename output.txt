@@ -1,26 +1,21 @@
 Filled container. 
-Container contains 7 elements.
+Container contains 4 elements.
 
 0: It's a Sphere with Radius: 15
 Its Density is 1.54
+Its Temperature of melting/burning is 230
 
 1: It's a Parallelepiped with Edges: 8, 9, 5
 Its Density is 7.8
+Its Temperature of melting/burning is 1718
 
 2: It's a Parallelepiped with Edges: 4, 3, 5
 Its Density is 1.54
+Its Temperature of melting/burning is 318
 
 3: It's a Sphere with Radius: 7
 Its Density is 7.7
-
-4: It's a Sphere with Radius: 30
-Its Density is 10
-
-5: It's a Parallelepiped with Edges: 3, 3, 5
-Its Density is 15.5
-
-6: It's a Parallelepiped with Edges: 8, 9, 11
-Its Density is 17
+Its Temperature of melting/burning is 2311
 
 Empty container. 
 Container contains 0 elements.

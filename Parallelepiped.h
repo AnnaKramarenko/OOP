@@ -12,7 +12,7 @@ class Parallelepiped : public Figure_3D {
     int A, B, C; //Ребра параллелепипеда
 public:
     void In_Data(ifstream& ifst); //Функция ввода информации о параллелепипедe
-    void Out_Data(double Density, ofstream& ofst); //Функция вывода информации о параллелепипеде
+    void Out_Data(double Density, int Temperature, ofstream& ofst); //Функция вывода информации о параллелепипеде
     Parallelepiped() {};
 };
 

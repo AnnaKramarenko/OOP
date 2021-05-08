@@ -8,7 +8,7 @@ void Container::Out(ofstream& ofst) {
 
     for (int i = 0; i < Len; i++) {
         ofst << i << ": ";
-        Temp->Cont->Out_Data(Temp->Cont->Get_Density(), ofst);
+        Temp->Cont->Out_Data(Temp->Cont->Get_Density(), Temp->Cont->Get_Temperature(), ofst);
 
         if (Temp->Next) {
             Temp = Temp->Next;
