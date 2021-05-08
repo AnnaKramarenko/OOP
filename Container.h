@@ -15,6 +15,7 @@ public:
     void In(ifstream& ifst); //Функция ввода элемента в контейнер
     void Out(ofstream& ofst); //Функция вывода элемента из контейнера
     void Clear(); //Функция очищения контейнера
+    void Out_Only_Sphere(ofstream& ofst); //Функция вывода только шаров
     Container(); //Конструктор
     ~Container() { Clear(); } //Деструктор
 };

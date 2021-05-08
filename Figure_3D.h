@@ -17,6 +17,7 @@ public:
     virtual void Out_Data(double Density, ofstream& ofst) = 0; //Чисто вирутальная функция вывода информации
                                               //о фигуре, она будет определена для
                                               //каждого класса конкретной фигуры
+    virtual void Out_Only_Sphere(double Density, ofstream& ofst); //Функция вывода только шаров
 protected:
     Figure_3D() {};
 };
