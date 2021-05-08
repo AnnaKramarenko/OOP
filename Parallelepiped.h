@@ -13,6 +13,7 @@ class Parallelepiped : public Figure_3D {
 public:
     void In_Data(ifstream& ifst); //Функция ввода информации о параллелепипедe
     void Out_Data(double Density, ofstream& ofst); //Функция вывода информации о параллелепипеде
+    double Volume(); //Функция подсчета объема фигуры
     Parallelepiped() {};
 };
 

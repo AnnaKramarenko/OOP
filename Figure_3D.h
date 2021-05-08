@@ -17,6 +17,7 @@ public:
     virtual void Out_Data(double Density, ofstream& ofst) = 0; //Чисто вирутальная функция вывода информации
                                               //о фигуре, она будет определена для
                                               //каждого класса конкретной фигуры
+    virtual double Volume() = 0; //Функция подсчета объема фигуры
 protected:
     Figure_3D() {};
 };

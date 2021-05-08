@@ -10,6 +10,8 @@ void Container::Out(ofstream& ofst) {
         ofst << i << ": ";
         Temp->Cont->Out_Data(Temp->Cont->Get_Density(), ofst);
 
+        ofst << "The Figure's Volume is " << Temp->Cont->Volume() << endl << endl;
+
         if (Temp->Next) {
             Temp = Temp->Next;
         }
