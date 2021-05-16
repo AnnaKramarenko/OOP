@@ -1,6 +1,7 @@
 #include "Figure_3D.h"
 #include "Sphere.h"
 #include "Parallelepiped.h"
+#include "Tetrahedron.h"
 
 Figure_3D* Figure_3D::In(ifstream& ifst) {
     Figure_3D* F;
@@ -13,6 +14,9 @@ Figure_3D* Figure_3D::In(ifstream& ifst) {
     }
     else if (K == 2) {
         F = new Parallelepiped;
+    }
+    else if (K == 3) {
+        F = new Tetrahedron;
     }
     else {
         return 0;
