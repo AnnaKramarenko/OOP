@@ -25,6 +25,7 @@ Figure_3D* Figure_3D::In(ifstream& ifst) {
     F->In_Data(ifst);
     
     ifst >> F->Density;
+    ifst >> F->Temperature;
 
     return F;
 }
