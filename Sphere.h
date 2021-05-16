@@ -14,6 +14,7 @@ public:
     void In_Data(ifstream& ifst); //Функция ввода информации о шаре
     void Out_Data(double Density, int Temperature, ofstream& ofst); //Функция вывода информации о шаре
     double Volume(); //Функция подсчета объема фигуры
+    void Out_Only_Sphere(double Density, int Temperature, ofstream& ofst); //Функция вывода только шаров
     Sphere() {};
 };
 

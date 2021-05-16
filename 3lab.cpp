@@ -23,6 +23,8 @@ int main(int argc, char* argv[]) {
 
     C.Out(ofst); //Вывод контейнера
 
+    C.Out_Only_Sphere(ofst); //Вывод только шаров
+
     C.Clear(); //Очистка контейнера
 
     ofst << "Empty container. " << endl;

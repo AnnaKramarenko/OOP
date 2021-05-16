@@ -21,6 +21,7 @@ public:
                                               //каждого класса конкретной фигуры
     virtual double Volume() = 0; //Функция подсчета объема фигуры
     bool Compare(Figure_3D* Other); //Функция сравнения объемов фигур
+    virtual void Out_Only_Sphere(double Density, int Temperature, ofstream& ofst); //Функция вывода только шаров
 protected:
     Figure_3D() {};
 };
