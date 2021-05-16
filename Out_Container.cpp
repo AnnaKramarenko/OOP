@@ -8,7 +8,7 @@ void Container::Out(ofstream& ofst) {
 
     for (int i = 0; i < Len; i++) {
         ofst << i << ": ";
-        Temp->Cont->Out_Data(Temp->Cont->Get_Density(), Temp->Cont->Get_Temperature(), ofst);
+        Temp->Cont->Out_Data(Temp->Cont->Get_Density(), Temp->Cont->Get_Temperature(),ofst);
 
         ofst << "The Figure's Volume is " << Temp->Cont->Volume() << endl << endl;
 
